@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Waling-Waling orchid motif">
+  <defs>
+    <radialGradient id="p" cx="50%" cy="80%" r="80%">
+      <stop offset="0" stop-color="#B8328A"/>
+      <stop offset="1" stop-color="#F9E7F1"/>
+    </radialGradient>
+  </defs>
+  <!-- three upper sepals -->
+  <path d="M100 98 C70 60 70 20 100 8 C130 20 130 60 100 98Z" fill="url(#p)"/>
+  <path d="M96 100 C55 95 20 70 18 45 C45 35 85 55 96 100Z" fill="url(#p)"/>
+  <path d="M104 100 C145 95 180 70 182 45 C155 35 115 55 104 100Z" fill="url(#p)"/>
+  <!-- lower petals -->
+  <path d="M96 104 C60 120 35 150 45 175 C75 175 100 140 96 104Z" fill="url(#p)" opacity=".85"/>
+  <path d="M104 104 C140 120 165 150 155 175 C125 175 100 140 104 104Z" fill="url(#p)" opacity=".85"/>
+  <!-- lip -->
+  <path d="M100 100 C85 115 85 140 100 150 C115 140 115 115 100 100Z" fill="#441D5B"/>
+  <circle cx="100" cy="106" r="6" fill="#F4C430"/>
+</svg>
