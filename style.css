@@ -311,3 +311,17 @@ a:focus-visible, button:focus-visible { outline: 3px solid var(--yellow); outlin
   .trail-layer { display: none; }
 }
 .steps li { z-index: 1; }
+
+/* Black line icons on feature cards */
+.icon svg { display: block; }
+
+/* Phones: preview becomes a swipeable carousel, tighter spacing */
+@media (max-width: 760px) {
+  .devices { display: flex; max-width: none; margin: 0 -1.25rem; padding: .5rem 1.25rem 1.5rem; gap: 1rem; overflow-x: auto; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; }
+  .device { flex: 0 0 68%; max-width: 280px; scroll-snap-align: center; }
+  .hero-visual { min-height: 440px; }
+  .marquee li { font-size: 1rem; }
+  .qr-card { max-width: 100%; }
+  .section-head { margin-bottom: 1.8rem; }
+}
+@media (max-width: 380px) { h1 { font-size: 2.1rem; } .device { flex-basis: 78%; } }
